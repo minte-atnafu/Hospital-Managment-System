@@ -1,0 +1,120 @@
+h1 {
+  color: rgb(13, 10, 156);
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.lab-test-request-page2 {
+  background-image: url("../images/lab.jpeg");
+  padding: 40px;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+
+.form-container2 {
+  display: flex;
+  justify-content: space-between; /* Space between forms */
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.form-left2 {
+  width: 45%;
+  background: none;
+  cursor: pointer;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+}
+
+.form-left2:hover {
+  transform: scale(1.03);
+}
+
+.form-right2 {
+  width: 45%;
+  background: none;
+  cursor: pointer;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+  margin-top: 100px;
+}
+
+.form-right2:hover {
+  transform: scale(1.03);
+}
+
+.form-group2 {
+  font-size: large;
+  font-weight: bold;
+  margin-bottom: 25px;
+  color: #0f110f;
+}
+
+.labelLab {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: bold;
+}
+
+.input[type="text"],
+.select {
+  width: 100%;
+  padding: 12px;
+  border: 2px solid #5f13eb;
+  border-radius: 5px;
+  font-size: medium;
+}
+
+.button.submit-button2 {
+  background-color: #007bff;
+  color: #fff;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: medium;
+  transition: background-color 0.3s;
+}
+
+.button.submit-button2:hover {
+  background-color: #0056b3;
+}
+
+.popup-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.popup-content {
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.4);
+  position: relative;
+  max-width: 500px;
+  width: 90%;
+  text-align: center;
+}
+
+.close-button {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  cursor: pointer;
+  font-size: 24px;
+  color: #5f13eb;
+}
+
+.submit-button2 {
+  margin-top: 30px;
+}
